@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <OSGeo4WPath>C:\OSGeo4W64</OSGeo4WPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(OSGeo4WPath)\include;$(OSGeo4WPath)\apps\Qt5\include;$(OSGeo4WPath)\apps\Qt5\include\QtCore;$(OSGeo4WPath)\apps\Qt5\include\QtGui;$(OSGeo4WPath)\apps\Qt5\include\QtWidgets;$(OSGeo4WPath)\apps\Qt5\include\QtXml;$(OSGeo4WPath)\apps\qgis-ltr\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
+    <LibraryPath>$(OSGeo4WPath)\lib;$(OSGeo4WPath)\apps\Qt5\lib;$(OSGeo4WPath)\apps\qgis-ltr\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>QGIS Development</_PropertySheetDisplayName>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Xml.lib;qgis_core.lib;qgis_gui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="OSGeo4WPath">
+      <Value>$(OSGeo4WPath)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
