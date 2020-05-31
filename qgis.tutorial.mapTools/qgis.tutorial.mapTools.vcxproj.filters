@@ -1,22 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="MapToolDemo.h">
-      <Filter>MapToolDemo</Filter>
-    </ClInclude>
-    <ClInclude Include="MapToolDemoUI.h">
-      <Filter>MapToolDemo</Filter>
-    </ClInclude>
+    <ClInclude Include="MapToolDemo.h" />
+    <ClInclude Include="MapToolDemoUI.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MapToolDemo.cpp">
-      <Filter>MapToolDemo</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="MapToolDemo">
-      <UniqueIdentifier>{149d9720-edaf-48eb-b046-97d97f197ab5}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="MapToolDemo.cpp" />
   </ItemGroup>
 </Project>

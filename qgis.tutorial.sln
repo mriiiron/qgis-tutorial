@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qgis.tutorial.4.fromWeb", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qgis.tutorial.5.featureFilter", "qgis.tutorial.featureFilter\qgis.tutorial.featureFilter.vcxproj", "{AD375766-F502-4B0C-8560-042236B8A423}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qgis.tutorial.6.addFeature", "qgis.tutorial.addFeature\qgis.tutorial.addFeature.vcxproj", "{14361EC3-3CA0-4A6B-8869-26D4FFF8461A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{AD375766-F502-4B0C-8560-042236B8A423}.Release|x64.Build.0 = Release|x64
 		{AD375766-F502-4B0C-8560-042236B8A423}.Release|x86.ActiveCfg = Release|Win32
 		{AD375766-F502-4B0C-8560-042236B8A423}.Release|x86.Build.0 = Release|Win32
+		{14361EC3-3CA0-4A6B-8869-26D4FFF8461A}.Debug|x64.ActiveCfg = Debug|x64
+		{14361EC3-3CA0-4A6B-8869-26D4FFF8461A}.Debug|x64.Build.0 = Debug|x64
+		{14361EC3-3CA0-4A6B-8869-26D4FFF8461A}.Debug|x86.ActiveCfg = Debug|Win32
+		{14361EC3-3CA0-4A6B-8869-26D4FFF8461A}.Debug|x86.Build.0 = Debug|Win32
+		{14361EC3-3CA0-4A6B-8869-26D4FFF8461A}.Release|x64.ActiveCfg = Release|x64
+		{14361EC3-3CA0-4A6B-8869-26D4FFF8461A}.Release|x64.Build.0 = Release|x64
+		{14361EC3-3CA0-4A6B-8869-26D4FFF8461A}.Release|x86.ActiveCfg = Release|Win32
+		{14361EC3-3CA0-4A6B-8869-26D4FFF8461A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

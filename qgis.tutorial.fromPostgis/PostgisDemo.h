@@ -33,7 +33,6 @@ private:
 
     QgsMapCanvas mCanvas;
     QgsMapToolExtent mToolDrawRect;
-    QgsRubberBand* mpRubberBand = nullptr;
 
     void onTestStatisticsQueryButtonClicked();
     void onDrawPolygonButtonClicked(bool isChecked);

@@ -2,5 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="FeatureFilterDemo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FeatureFilterDemo.h" />
+    <ClInclude Include="FeatureFilterDemoUI.h" />
   </ItemGroup>
 </Project>
